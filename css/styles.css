@@ -203,8 +203,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 0;
 
 }
-.icon{
-
+.icon-vector{
+  display: flex;
+  background-color:#f4f4fd;
+  border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px; 
+    align-items: center;
+    justify-content: center;
 }
 
 .desc-work{
@@ -262,11 +269,12 @@ width: calc((100% - 72px) / 4);
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
+  align-items: center;
+  justify-content: center;
 }
-.icon-inst{
-  height: 16px;
-  width: 16px;
-  color: #f4f4fd;
+
+.icon-soc{
+  fill:#fff
 }
   .title-section{font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -385,9 +393,8 @@ margin-bottom: 16px;
       max-width: 264px
      }
 .soc-footer{
-  display: flex;
-  gap:120px;
-  
+ display: flex;
+
 }
 
      .soc-media{
