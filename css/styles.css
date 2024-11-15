@@ -394,7 +394,7 @@ margin-bottom: 16px;
      }
 .soc-footer{
  display: flex;
-
+margin-right: 692px;
 }
 
      .soc-media{
@@ -403,4 +403,5 @@ margin-bottom: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
+        padding-bottom: 16px;
      }
